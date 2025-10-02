@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+.genv/
+.venv/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.out
+*.err
+
+# PyTorch / Model checkpoints
+*.pth
+*.pt
+checkpoints/
+runs/
+
+# Datasets
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# Images / Generated outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+/saved_images
