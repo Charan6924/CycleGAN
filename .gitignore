@@ -29,6 +29,7 @@ checkpoints/
 runs/
 
 # Datasets
+data/
 datasets/
 *.zip
 *.tar
