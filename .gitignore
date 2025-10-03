@@ -37,7 +37,6 @@ datasets/
 *.gz
 
 # Images / Generated outputs
-*.png
 *.jpg
 *.jpeg
 *.gif
