@@ -81,8 +81,10 @@ def train(disc_H, disc_Z, gen_Z, gen_H, loader, opt_gen, opt_disc, L1, mse, d_sc
         if idx % 50 == 0:
             loop.set_description(f"Epoch [{epoch+1}/{config.NUM_EPOCHS}]")
             loop.set_postfix(D_loss=D_loss.item(), G_loss=G_loss.item())
-            save_image(fake_horse * 0.5 + 0.5, f"saved_images/horse_{epoch}_{idx}.png")
-            save_image(fake_zebra * 0.5 + 0.5, f"saved_images/zebra_{epoch}_{idx}.png")
+            save_image(horse * 0.5 + 0.5, f"saved_images/real_horse_{epoch}_{idx}.png")
+            save_image(zebra * 0.5 + 0.5, f"saved_images/real_zebra_{epoch}_{idx}.png")
+            save_image(fake_horse * 0.5 + 0.5, f"saved_images/fake_horse_{epoch}_{idx}.png")
+            save_image(fake_zebra * 0.5 + 0.5, f"saved_images/fake_zebra_{epoch}_{idx}.png")
 
 
 def main():

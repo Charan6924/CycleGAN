@@ -30,6 +30,7 @@ runs/
 
 # Datasets
 data/
+saved_images
 datasets/
 *.zip
 *.tar
